@@ -4,15 +4,15 @@ from requests.auth import HTTPBasicAuth
 
 
 # Diese Daten müssen angepasst werden:
-serial = "112100000000" # Seriennummer des Hoymiles Wechselrichters
-maximum_wr = 300 # Maximale Ausgabe des Wechselrichters
-minimum_wr = 100 # Minimale Ausgabe des Wechselrichters
+serial = "114184861207" # Seriennummer des Hoymiles Wechselrichters
+maximum_wr = 800 # Maximale Ausgabe des Wechselrichters
+minimum_wr = 20 # Minimale Ausgabe des Wechselrichters
 
-dtu_ip = '192.100.100.20' # IP Adresse von OpenDTU
+dtu_ip = '192.168.178.94' # IP Adresse von OpenDTU
 dtu_nutzer = 'admin' # OpenDTU Nutzername
-dtu_passwort = 'openDTU42' # OpenDTU Passwort
+dtu_passwort = 'SKR/HM-800' # OpenDTU Passwort
 
-shelly_ip = '192.100.100.30' # IP Adresse von Shelly 3EM
+shelly_ip = '192.168.178.90' # IP Adresse von Shelly 3EM
 
 
 while True:
